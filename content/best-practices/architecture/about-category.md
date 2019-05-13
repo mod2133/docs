@@ -7,7 +7,7 @@ draft: true
 ---
 
 {{% alert type="info" %}}
-The Mendix Architecture Best Practices were written for [Mendx version 7](/releasenotes/studio-pro/7). They will be updated for Mendix 8 and future versions as necessary.
+The Mendix Architecture Best Practices were written for [Mendix version 7](/releasenotes/studio-pro/7). They will be updated for Mendix 8 and future versions as necessary.
 {{% /alert %}}
 
 ## 1 Introduction
@@ -25,7 +25,7 @@ The Mendix architecture best practices complements the following sections in the
 
 {{% todo %}}[**EXPLAIN WHY THESE BEST PRACTICES WILL BE VALUABLE**]{{% /todo %}}
 
-Mendix best practices around architecture will be valuable for architects, designers, business developers, and more technical developers that work on Mendix app projects. The best practices address common areas where the quality of Mendix solutions can improve by using this information or using the examples in the App Store.
+Mendix best practices around architecture will be valuable for architects, designers, business developers, and more technical developers that work on Mendix app projects. {{% rewrite %}}The best practices address common areas where the quality of Mendix solutions can improve by using this information or using the examples in the App Store.{{% /rewrite %}}
 
 {{% todo %}}[**ADD LINK TO APP STORE WHEN AVAILABLE ABOVE; EXPLAIN DIAGRAM**]{{% /todo %}}
 
@@ -37,7 +37,7 @@ This diagram presents an overview of the structure of the Architecture Best Prac
 
 ![](attachments/arch-over2.png)
 
-For each subject there is an overview document, and below that, there are a number of in-depth descriptions and business use cases. Some of these documents link to a module in the App Store that demonstrates example modelling reflecting the theory.
+For each subject there is an overview document, and below that, there are a number of in-depth descriptions and business use cases. Some of these documents link to a module in the App Store that demonstrates example modelling reflecting the best practices.
 
 {{% todo %}}[**ADD LINK TO APP STORE WHEN AVAILABLE ABOVE**]{{% /todo %}}
 
@@ -49,7 +49,7 @@ The Mendix Architecture Best Practices will cover the architecture subjects desc
 
 One of the most important parts of architecture is integration. All business apps need to integrate with people, things, other systems, and operational tools to be useful.
 
-Integration is really the glue that holds the pieces together, and since there are so many different systems, businesses, technologies, and organizations, integration is a hard subject to nail down.
+Integration is really the glue that holds the pieces together, and since there are so many different systems, businesses, technologies, and organizations, integration is a {{% rewrite }}hard subject to nail down {{% /rewrite }}.
 
 The best thing to have with integration is an open mind while thinking functionally, talking with stakeholders and experts, and considering error scenarios. Then you can develop an overall solution design that makes integration as easy and as clearly defined as possible.
 
